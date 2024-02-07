@@ -11,7 +11,13 @@ public class Dog {
 		this.breed = breed;
 	}
 	
-	public String getBreed() {
+	public String getBreed() 
+	{
 		return breed;
+	}
+	
+	public String getName()
+	{
+		return name;
 	}
 }
